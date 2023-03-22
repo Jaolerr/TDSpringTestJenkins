@@ -12,7 +12,7 @@ import com.inti.model.Salarie;
 import com.inti.repository.ISalarieRepository;
 
 // Classe controller
-//
+//test
 @Controller
 public class SalarieController {
 	
