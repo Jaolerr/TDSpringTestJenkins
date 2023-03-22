@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.inti.model.Salarie;
 import com.inti.repository.ISalarieRepository;
@@ -14,6 +15,7 @@ import com.inti.repository.ISalarieRepository;
 // Classe controller
 //testtz
 @Controller
+@RequestMapping("salarie")
 public class SalarieController {
 	
 	@Autowired
